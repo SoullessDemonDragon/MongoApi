@@ -1,0 +1,85 @@
+﻿@model IEnumerable<MongoApp.Models.UserData>
+
+@{
+    ViewData["Title"] = "GetAllUsers";
+}
+
+<div class="container">
+    @if (ViewBag.ToastMessage != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @ViewBag.ToastMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+</div>
+
+<h1>Get All Users</h1>
+
+<p>
+    <a asp-action="CreateUser" asp-controller="Create" class="btn btn-primary">Create New User</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Age)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Phonenumber)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Role)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                    <td>
+
+                        <div class="btn-group" role="group">
+                            <form id="editForm" action="@Url.Action("AdminUpdateUser1", "Update")" method="post">
+                                <input type="hidden" name="action" value="update" />
+                                @Html.Hidden("Id", item.Id)
+                                @Html.Hidden("UserName", item.UserName)
+                                @Html.Hidden("Age", item.Age)
+                                @Html.Hidden("Name", item.Name)
+                                @Html.Hidden("Email", item.Email)
+                                @Html.Hidden("Phonenumber", item.Phonenumber)
+                                @Html.Hidden("Password", item.Password)
+                                @Html.Hidden("Role", item.Role)
+                                @Html.Hidden("Status", item.Status)
+
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-primary btn-sm m" style="margin-right: 5px;">
+                                    Update
+                                </button>
+                            </form>
+                            <form id="deleteForm" action="@Url.Action("AdminDeleteUser1", "Delete")" method="post">
+                                <input type="hidden" name="action" value="delete" />
+                                @Html.Hidden("Id", item.Id)
+                                @Html.Hidden("Password", item.Password)
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-danger btn-sm" style="margin-right: 5px;">
+                                    Delete
+                                </button>
+                            </form>
+                        </div>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

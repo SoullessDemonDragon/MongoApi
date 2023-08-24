@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MongoApp
+build_property.RootNamespace = MongoApp
+build_property.ProjectDir = C:\Users\prajy\OneDrive\Desktop\ANA\MongoApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\prajy\OneDrive\Desktop\ANA\MongoApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Create/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Delete/AdminDeleteForSure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlXEFkbWluRGVsZXRlRm9yU3VyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Delete/DeleteForSure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlXERlbGV0ZUZvclN1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/GetAllUser/GetAllUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0QWxsVXNlclxHZXRBbGxVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Login/Admin/AdminProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaW5cQWRtaW5Qcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Login/User/UserProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXNlclxVc2VyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Privacy/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Update/AdminUpdateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXEFkbWluVXBkYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Update/PasswordUpdateResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXFBhc3N3b3JkVXBkYXRlUmVzcG9uc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Update/UpdatePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXFVwZGF0ZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Update/UpdateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXFVwZGF0ZVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Shared/_Alter2Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbHRlcjJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mcx6mp3w5f
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Shared/_AlterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbHRlckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-ukfe2ljro0
+
+[C:/Users/prajy/OneDrive/Desktop/ANA/MongoApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ndm130mc6p
